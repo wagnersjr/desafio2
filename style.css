@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Dancing+Script:wght@400..700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: "Anek Devanagari", sans-serif;
 }
 
 img {
@@ -20,11 +22,16 @@ h1 {
   color: darkred;
   margin-left: 120px;
   margin-top: 20px;
+  font-weight: 700;
+  font-size: 36px;
 }
 
 .texto-1 {
   margin-left: 120px;
   margin-top: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.05px;
 }
 
 a {
@@ -36,17 +43,23 @@ h2 {
   color: darkred;
   margin-left: 120px;
   margin-top: 20px;
+  font-weight: 700;
+  font-size: 36px;
 }
 
 ol {
   margin-left: 140px;
   margin-top: 20px;
+  font-size: 24px;
+  line-height: 29.05px;
 }
 
 ul {
   margin-left: 140px;
   margin-top: 20px;
   margin-bottom: 50px;
+  font-size: 24px;
+  line-height: 29.05px;
 }
 
 footer {
@@ -55,5 +68,7 @@ footer {
 }
 
 .texto-footer {
-  margin-left: 700px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
